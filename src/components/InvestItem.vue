@@ -1,7 +1,7 @@
 <template>
     <div id="background" @click="execute">
         <div id="item">
-           <img src="..\assets\idea.png" >
+           <img src="@\assets\idea.png" >
             <h1>{{ name }}</h1>
             <strong>{{ author }}</strong>
             <p>{{ description }}</p>
